@@ -1,9 +1,9 @@
 import random
 def make():
     l=[]
-    for i in range(9):
+    for i in range(5):
         l.append("")
-        for i in range(5):
+        for i in range(3):
             l[-1]+= "⬜" if random.randint(0,1) == 1 else "⬛"
 
     for i in l:
